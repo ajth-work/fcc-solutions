@@ -1,0 +1,63 @@
+
+.main-doc {
+  background: white;
+}
+.container {
+  font-size: 1.2em;
+  margin: 0px;
+  padding:3px;
+  min-height: 300px;
+  width: 100%;
+  background: black;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px auto 1fr auto;
+  grid-gap: 3px;
+  grid-template-areas:
+    "header"
+    "index"
+    "content"
+    "footer";
+}
+
+.container-header {
+  background: white;
+  grid-area: header;
+  padding: 5px;
+}
+
+.container-index {
+  background: white;
+  padding: 5px;
+  padding-right: 20px;
+  grid-area: index;
+
+}
+
+.container-content {
+  background: white;
+  padding: 5px;
+  padding-left: 8px;
+  grid-area: content;
+}
+
+.container-footer {
+  background: white;
+  grid-area: footer;
+}
+
+
+  @media (min-width: 300px){
+    .container{
+      grid-template-columns: auto 1fr;
+      grid-template-rows: auto 1fr auto;
+      grid-template-areas:
+        "index header"
+        "index content"
+        "index footer";
+    }
+    
+  }
+
+</style>
+
