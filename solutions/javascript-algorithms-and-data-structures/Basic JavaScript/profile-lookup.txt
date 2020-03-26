@@ -35,11 +35,7 @@ console.log("Start - Confirm: [Requested Information]");
 console.log("NAME: ", name);
 console.log("PROPERTY:", prop);
 
-
-// STEP 1: check if name is an actual contact's firstName and the given property (prop) is a property of that contact.
-
 for (var i = 0; i < contacts.length; i++) {
-// 1.1 - Check if "name" is an actual contact's firstName.
 if(contacts[i]["firstName"] === name) {
     if(contacts[i].hasOwnProperty(prop) === true) {
         return contacts[i][prop];
