@@ -10,5 +10,6 @@ function findLongestWordLength(str) {
   console.log(arr.reverse(arr.sort(compareNumbers)));
   console.log(arr[0])
   return arr[0];
+  //return str[i].length;
 }
 findLongestWordLength("What if we try a super-long word such as otorhinolaryngology");
