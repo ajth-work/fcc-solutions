@@ -1,0 +1,173 @@
+/*
+font-family: 'Muli', ;
+font-family: 'Spartan', ;
+font-family: 'Odibee Sans', ;
+font-family: 'Lobster', ;
+*/
+
+@media (max-height: 400px) {
+    .navbar {
+      position: center;
+    }
+  }
+  
+  .body {
+    background-color: black;
+    font-family: "Spartan";
+  }
+  #navbar {
+    display: flex;
+    background-color: lightcoral;
+    justify-content: space-around;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    text-align: right;
+    color: black;
+  }
+  #navbar-box-1-leftopen {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 100%;
+    width: 66.67%;
+    justify-content: center;
+    font-family: "Spartan";
+    color: lightcoral;
+    font-size: 20px;
+    padding-top: 5px;
+  }
+  #navbar-box-2-rightwelcome {
+    background-color: lightcoral;
+    display: flex;
+    align-vertical: stretch;
+  }
+  #navbar-box-3-rightprojects {
+    background-color: lightcoral;
+  }
+  #navbar-box-4-rightaboutme {
+    background-color: lightcoral;
+  }
+  .nav-link {
+    background-color: lightcoral;
+    color: black;
+  }
+  .navbar-right {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 11.11%;
+    justify-content: center;
+    align: stretch;
+    padding-top: 5px;
+  }
+  .welcome-section {
+    height: 100vh;
+    background-color: black;
+    text-align: center;
+    color: lightcoral;
+  
+  }
+  .projects {
+    background-color: lightcoral;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+  }
+  .projects-navbar {
+    background-color: lightcoral;
+  }
+  .project-tile {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    background-color: lightcoral;
+    border-color: #282828;
+    border-style: outset;
+  }
+  
+  #box-container {
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+  }
+  
+  #box-1-tribute {
+  }
+  #box-2-survey {
+  }
+  #box-3-product {
+  }
+  #box-4-technical {
+  }
+  .webpage-preview {
+    width: 100%;
+  }
+  #tribute-preview {
+  }
+  #survey-preview {
+  }
+  #product-preview {
+  }
+  #technical-preview {
+  }
+  
+  .about-me {
+    background-color: lightcoral;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+  }
+  #learn-more {
+    background-color: lightcoral;
+    font-size: 19px;
+  }
+  .profile-link {
+    background-color: darkblue;
+    text-align: center;
+  }
+  .profile-link-2 {
+    background-color: lightcoral;
+  }
+  #profile-link-box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: lightcoral;
+  }
+  #github-logo-img {
+    display: flex;
+    width: 100%;
+    background-color: lightcoral;
+    max-width: 83px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+  }
+  #and {
+    display: flex;
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 29px;
+    padding-top: 27px;
+  }
+  
+  #linkedin-logo-img {
+    display: flex;
+    width: 100%;
+    background-color: lightcoral;
+    max-width: 90px;
+    padding-left: 5px;
+  }
+  
+  .footer {
+    display: block;
+    position: fixed;
+    background-color: black;
+    color: lightcoral;
+    text-align: center;
+    padding-top: 5px;
+  }
